@@ -8,9 +8,6 @@ export default {
 
   theme: {
     extend: {
-      fontFamily:{
-        inter:['var(--font-inter','sans-serif']
-      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -21,9 +18,18 @@ export default {
       backgroundImage:{
         grid1:"url('../assets/images/grid1.svg')",
         pattern2:"url('../assets/images/pattern-02.svg')",
+        dashBg:"url('../assets/images/dash.png')",
+        taskBg:"url('../assets/images/task.png')",
         pattern3:"url('../assets/images/pattern-06.svg')",
         pattern4:"url('../assets/images/pattern-09.svg')",
         pattern5:"url('../assets/images/pattern-10.svg')",
+        about1:"url('../assets/images/about-1-left.svg')",
+        about2:"url('../assets/images/about-1-right.svg')",
+        about3:"url('../assets/images/about-2.svg')",
+        about4:"url('../assets/images/about-3.svg')",
+        about5:"url('../assets/images/about-4.svg')",
+        about6:"url('../assets/images/about-5.svg')",
+        about7:"url('../assets/images/about-7.svg')",
       }
     },
   },
